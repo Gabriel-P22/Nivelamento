@@ -13,7 +13,7 @@ function calcAverage(firstGrade, seconderyGrade, thirdGrade) {
     return avarage;
 }
 
-let ListStudents = []
+let ListStudents = [];
 
 let qtda = 0;
 
