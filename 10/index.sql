@@ -20,6 +20,8 @@ modify column email varchar(30) null;
 insert into pessoas values
 (Default, 'Amanda', 'amanda@email.com'), 
 (Default, 'Paulo', null), 
-(Default, 'Joana', 'joana@email.com');
+(3, 'Joana', 'joana@email.com');
+
+UPDATE pessoas SET nome='Joana Souza' where id=3;
 
 select * from pessoas;
